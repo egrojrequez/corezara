@@ -1,3 +1,3 @@
 # CoreZara
 
-Core Module for Zara project
+Core Module for Zara example project
