@@ -20,7 +20,7 @@ public enum ZaraFont: String, CaseIterable {
     }
 }
 
-public enum PGFont {
+public enum ZFont {
     
     case zaraH1
     case zaraH2
