@@ -22,10 +22,10 @@ public enum ZaraFont: String, CaseIterable {
 
 public enum PGFont {
     
-    case h1
-    case h2
-    case h3
-    case footnote
+    case zaraH1
+    case zaraH2
+    case zaraH3
+    case zaraFootnote
     
     private var name: String {
         return ZaraFont.regular.name
@@ -33,10 +33,10 @@ public enum PGFont {
     
     private var size: CGFloat {
         switch self {
-        case .h1: return 22
-        case .h2: return 20
-        case .h3: return 18
-        case .footnote: return 14
+        case .zaraH1: return 22
+        case .zaraH2: return 20
+        case .zaraH3: return 18
+        case .zaraFootnote: return 14
         }
     }
     
