@@ -10,7 +10,7 @@ import SwiftUI
 
 public enum ZaraFont: String, CaseIterable {
     
-    case regular = "OPTIBodoni"
+    case regular = "OPTIBodoni-Antiqua"
     
     var name: String {
         switch self {
